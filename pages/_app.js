@@ -8,5 +8,4 @@ function MyApp({ Component, pageProps }) {
     </TransactionProvider>
   )
 }
-
 export default MyApp
