@@ -1,5 +1,6 @@
+import React, { Component } from 'react'
 import '../styles/globals.css'
- import { TransactionProvider } from '../context/TransactionContext'
+import { TransactionProvider } from '../context/TransactionContext'
 
 function MyApp({ Component, pageProps }) {
   return (

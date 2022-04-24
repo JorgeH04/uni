@@ -1,3 +1,4 @@
+import React, { Component } from 'react'
 import Image from 'next/image'
 import { useEffect, useState, useContext } from 'react'
 import { FiArrowUpRight } from 'react-icons/fi'

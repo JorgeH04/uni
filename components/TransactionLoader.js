@@ -1,5 +1,6 @@
 import { css } from '@emotion/react'
 import { MoonLoader } from 'react-spinners'
+import React, { Component } from 'react'
 
 const style = {
   wrapper: `text-white h-96 w-72 flex flex-col justify-center items-center`,

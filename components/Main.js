@@ -1,3 +1,4 @@
+import React, { Component } from 'react'
 import Image from 'next/image'
 import { RiSettings3Fill } from 'react-icons/ri'
 import { AiOutlineDown } from 'react-icons/ai'

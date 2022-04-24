@@ -1,3 +1,4 @@
+import React, { Component } from 'react'
 import { useEffect, useState } from 'react'
 import { client } from '../lib/sanityClient'
 import { useContext } from 'react'
