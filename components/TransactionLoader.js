@@ -1,6 +1,6 @@
 import { css } from '@emotion/react'
-import { MoonLoader } from 'react-spinners'
 import React from 'react'
+
 
 const style = {
   wrapper: `text-white h-96 w-72 flex flex-col justify-center items-center`,
@@ -17,7 +17,7 @@ const TransactionLoader = () => {
   return (
     <div className={style.wrapper}>
       <div className={style.title}>Transaction in progress...</div>
-      <MoonLoader color={'#fff'} loading={true} css={cssOverride} size={50} />
+      
     </div>
   )
 }
