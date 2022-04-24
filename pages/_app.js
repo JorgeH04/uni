@@ -1,6 +1,5 @@
 import '../styles/globals.css'
-import { TransactionProvider } from '../context/TransactionContext'
-import React, { Component } from 'react'
+ import { TransactionProvider } from '../context/TransactionContext'
 
 function MyApp({ Component, pageProps }) {
   return (
@@ -9,4 +8,8 @@ function MyApp({ Component, pageProps }) {
     </TransactionProvider>
   )
 }
+
 export default MyApp
+
+
+
