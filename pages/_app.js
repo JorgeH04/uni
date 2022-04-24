@@ -1,6 +1,7 @@
-import React, { Component } from 'react'
+import React from 'react'
 import '../styles/globals.css'
 import { TransactionProvider } from '../context/TransactionContext'
+import PropTypes from "prop-types";
 
 function MyApp({ Component, pageProps }) {
   return (
@@ -14,3 +15,7 @@ export default MyApp
 
 
 
+MyApp.propTypes = {
+  Component: PropTypes.string,
+  pageProps: PropTypes.string
+};

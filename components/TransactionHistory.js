@@ -1,4 +1,4 @@
-import React, { Component } from 'react'
+import React from 'react'
 import { useEffect, useState } from 'react'
 import { client } from '../lib/sanityClient'
 import { useContext } from 'react'
@@ -21,7 +21,7 @@ const TransactionHistory = () => {
   const [transactionHistory, setTransactionHistory] = useState([])
 
   useEffect(() => {
-    ;(async () => {
+    (async () => {
       if (!isLoading && currentAccount) {
         const query = `
           *[_type=="users" && _id == "${currentAccount}"] {

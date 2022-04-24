@@ -1,4 +1,4 @@
-import React, { Component } from 'react'
+import React from 'react'
 import Image from 'next/image'
 import { useEffect, useState, useContext } from 'react'
 import { FiArrowUpRight } from 'react-icons/fi'
@@ -7,7 +7,7 @@ import { HiOutlineDotsVertical } from 'react-icons/hi'
 import ethLogo from '../assets/eth.png'
 import uniswapLogo from '../assets/uniswap.png'
 import { TransactionContext } from '../context/TransactionContext'
-import { client } from '../lib/sanityClient'
+//import { client } from '../lib/sanityClient'
 
 const style = {
   wrapper: `p-4 w-screen flex justify-between items-center`,
